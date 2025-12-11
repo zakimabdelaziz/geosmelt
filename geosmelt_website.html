@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GEOSMELT SARL</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
+        header { background: #003366; color: #fff; padding: 30px 20px; text-align: center; }
+        header img { max-width: 160px; height: auto; }
+        nav { background: #002244; padding: 12px; text-align: center; }
+        nav a { color: #fff; margin: 0 20px; text-decoration: none; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        section { padding: 40px; background: #fff; margin: 25px auto; width: 90%; max-width: 950px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        h2 { color: #003366; margin-top: 0; }
+        form input, form textarea { width: 100%; padding: 12px; border-radius: 6px; border: 1px solid #ccc; }
+        form button { padding: 12px; background: #003366; color: white; border:none; border-radius:6px; cursor:pointer; font-size:16px; }
+        form button:hover { background: #224f88; }
+        footer { text-align: center; padding: 25px; background: #003366; color: #fff; margin-top: 40px; }
+
+        @media(max-width: 600px) {
+            nav a { display: block; padding: 10px 0; }
+            header img { max-width: 120px; }
+            section { padding: 25px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo-geosmelt.png" alt="Logo GEOSMELT" style="height:120px; display:block; margin:0 auto 15px auto;" />
+        <h1>GEOSMELT SARL</h1>
+        <p>Société à Responsabilité Limitée</p>
+    </header>
+
+    <nav>
+        <a href="#presentation">Présentation</a>
+        <a href="#services">Services</a>
+        <a href="#coordonnees">Coordonnées</a>
+    </nav>
+
+    <section id="apropos">
+        <h2>À propos</h2>
+        <p>GEOSMELT SARL est une entreprise marocaine spécialisée dans le secteur minier et les sciences de la Terre. Son expertise couvre l’exploitation minière, la fonderie, ainsi que les études géophysiques, géologiques, hydrogéologiques et hydrologiques. Elle opère aussi bien au Maroc qu’à l’international, pour son propre compte ou pour le compte de ses partenaires.</p>
+        <p>Notre mission est de fournir des services techniques fiables et innovants, en combinant savoir-faire scientifique, précision opérationnelle et engagement envers la qualité.</p>
+    </section>
+
+    <section id="presentation">
+        <h2>Présentation</h2>
+        <p>GEOSMELT SARL est une société spécialisée dans les activités minières, la fonderie, les études géophysiques, géologiques, hydrogéologiques et hydrologiques, ainsi que divers travaux et services liés au secteur.</p>
+        <p>La société intervient au Maroc et à l'étranger, pour son propre compte ou pour celui de tiers.</p>
+    </section>
+
+    <section id="services">
+        <h2>Nos activités</h2>
+        <ul>
+            <li>Exploitation minière : achat et vente</li>
+            <li>Fonderie</li>
+            <li>Études géophysiques, géologiques, hydrogéologiques et hydrologiques</li>
+            <li>Services professionnels liés au domaine</li>
+            <li>Travaux divers et négoce</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="#" method="post" style="display:flex; flex-direction:column; gap:15px; max-width:500px;">
+            <input type="text" name="nom" placeholder="Votre nom" required />
+            <input type="email" name="email" placeholder="Votre email" required />
+            <textarea name="message" placeholder="Votre message" rows="5" required></textarea>
+            <button type="submit" style="padding:10px; background:#003366; color:white; border:none; cursor:pointer;">Envoyer</button>
+        </form>
+    </section>
+
+    <section id="coordonnees">
+        <h2>Siège social</h2>
+        <p>Adresse : Avenue Hassan 2, Rue Akensous, Immeuble N°01, Appartement N°02, Rabat</p>
+    </section>
+
+    <footer>
+        <p>© 2025 GEOSMELT SARL — Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
